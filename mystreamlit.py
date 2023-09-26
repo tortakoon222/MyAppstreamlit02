@@ -22,3 +22,4 @@ st.markdown("")
 รmport pandas as pd
 dt=pt.read_csv('./data/iris.csv')
 st.write(dt.head(10))
+st.botton('show bar chart')
