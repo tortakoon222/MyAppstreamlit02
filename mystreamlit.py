@@ -19,7 +19,7 @@ html_1 = """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
-รmport pandas as pd
+import pandas as pd
 dt=pt.read_csv('./data/iris.csv')
 st.write(dt.head(10))
 st.botton('show bar chart')
