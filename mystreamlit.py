@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.image('./pic/011.jpg')
-col1,col2 = st.columes(2)
+col1,col2 = st.columns(2)
 
 with col1:
     st.header('ต่อตระกูล สุขปาน')
