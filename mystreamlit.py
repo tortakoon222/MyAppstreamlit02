@@ -1,4 +1,5 @@
 import streamlit as st
+
 st.image('./pic/011.jpg')
 col1,col2 = st.colume(2)
 
